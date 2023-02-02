@@ -60,7 +60,7 @@ function consultar() {
             }   
         } 
         
-        resultado.innerHTML = ` Detectamos ${genero} com ${idade} anos`
+        resultado.innerHTML = ` 🧐 Detectamos ${genero} com ${idade} anos!`
         resultado.appendChild(img) // adicionar ao filho
 
     }    
