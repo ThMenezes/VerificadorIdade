@@ -35,6 +35,16 @@ div p {
     padding: 10px;
 }
 
+#resultado {
+    padding-top: 20px;
+}
+
+img {
+    width: 260px;
+    height: 200px;
+    padding-top: 20px;
+}
+
 #button {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -54,4 +64,11 @@ footer {
 
 footer a {
     color: #000000;
+}
+
+@media (max-width:600px) {
+    section {
+        width: auto;
+        margin: 10px 10px 10px 10px;
+    }
 }
